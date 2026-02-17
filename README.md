@@ -19,6 +19,7 @@
 
 ## Interview Questions:
 **1. What is Git?**
+
 Git is a Distributed Version Control System (DVCS) used to track changes in source code during software development.
 
 * Distributed: Every developer has a complete local copy of the entire project history, allowing them to work offline.
@@ -28,6 +29,7 @@ Git is a Distributed Version Control System (DVCS) used to track changes in sour
 * Collaboration: It allows multiple developers to work on the same codebase simultaneously without overwriting each other's work.
 
 **2. What is the difference between merge and rebase?**
+
 Both commands integrate changes from one branch into another, but they do so in entirely different ways.
 
 * Merge: Takes the contents of a source branch and integrates it with a target branch. It creates a brand-new "merge commit" that ties the histories of both branches together.
@@ -39,10 +41,12 @@ Pros/Cons: Preserves the complete, chronological history of the project, but can
 Pros/Cons: Creates a perfectly linear, clean project history without extra merge commits. However, it rewrites project history, which can cause massive collaboration issues if you rebase a branch that has already been shared with others.
 
 **3. What is a pull request?**
+
 A pull request (PR) is a feature provided by Git hosting platforms like GitHub, GitLab, or Bitbucket (it is not a native Git command).
 It is a formal request to merge a feature branch into the main branch. A PR alerts team members that code is ready, provides a dedicated forum for code review, allows for automated testing (CI/CD) to run against the new code, and initiates discussion before the code becomes part of the main project.
 
 **4. How do you resolve merge conflicts?**
+
 A merge conflict occurs when Git cannot automatically resolve differences in code between two commits (usually because the exact same line of code was altered in two different ways).
 To resolve a conflict:
 
@@ -55,6 +59,7 @@ To resolve a conflict:
 4. Finalize: Save the file, stage it using git add <filename>, and then run git commit to complete the merge process.
 
 **5. What are Git tags?**
+
 Git tags are static references that point to specific points in a repository's history. Unlike branches, which continuously move forward as new commits are added, tags are fixed. They are almost exclusively used to mark release points (e.g., v1.0.0, v2.4.1) so you can easily deploy or roll back to a specific, stable version of the software.
 
 **6. What is Git workflow?**
@@ -68,10 +73,12 @@ A Git workflow is a standardized set of rules and practices that dictate how a t
 * Trunk-Based Development: All developers commit small, frequent changes directly to a single shared branch (the trunk/main) to avoid long-lasting feature branches.
 
 **7. Explain git stash.**
+
 git stash temporarily shelves (or "stashes") changes you've made to your working directory that are not yet ready to be committed.
 This is incredibly useful when you are in the middle of working on a feature, but suddenly need to switch branches to fix an urgent bug. You can stash your messy work, switch branches, do the fix, switch back, and run git stash pop to reapply your unfinished work exactly as you left it.
 
 **8. What is the use of .gitignore?**
+
 The .gitignore file is a plain text file placed in the root of a repository that explicitly tells Git which files or directories it should completely ignore and not track.
 This is crucial for keeping repositories clean and secure. Common things added to a .gitignore include:
 
