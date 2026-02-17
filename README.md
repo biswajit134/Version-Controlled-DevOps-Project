@@ -2,6 +2,10 @@
 ## Hints:
 **1. Initialize repo a. and push to GitHub.**
 ![image_url](https://github.com/biswajit134/Version-Controlled-DevOps-Project/blob/main/SS/Screenshot%202026-02-17%20184348.png?raw=true)
+![image_url](https://github.com/biswajit134/Version-Controlled-DevOps-Project/blob/main/SS/Screenshot%202026-02-17%20184502.png?raw=true)
+![image_url](https://github.com/biswajit134/Version-Controlled-DevOps-Project/blob/main/SS/Screenshot%202026-02-17%20185835.png?raw=true)
+![image_url](https://github.com/biswajit134/Version-Controlled-DevOps-Project/blob/main/SS/Screenshot%202026-02-17%20185931.png?raw=true)
+![image_url](https://github.com/biswajit134/Version-Controlled-DevOps-Project/blob/main/SS/Screenshot%202026-02-17%20190036.png?raw=true)
 **2. Create dev, feature, and main branches.**
 ![image_url](https://github.com/biswajit134/Version-Controlled-DevOps-Project/blob/main/SS/Screenshot%202026-02-17%20185931.png?raw=true)
 ![image_url](https://github.com/biswajit134/Version-Controlled-DevOps-Project/blob/main/SS/Screenshot%202026-02-17%20190210.png?raw=true)
