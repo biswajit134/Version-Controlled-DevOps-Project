@@ -13,7 +13,6 @@
 ![image_url](https://github.com/biswajit134/Version-Controlled-DevOps-Project/blob/main/SS/Screenshot%202026-02-17%20192825.png?raw=true)
 ![image_url](https://github.com/biswajit134/Version-Controlled-DevOps-Project/blob/main/SS/Screenshot%202026-02-17%20193253.png?raw=true)
 **4. Add a proper README.md.**
-![image_url]()
 **5. Use .gitignore and tags.**
 ![image_url](https://github.com/biswajit134/Version-Controlled-DevOps-Project/blob/main/SS/Screenshot%202026-02-17%20195219.png?raw=true)
 **6. Document all tasks using markdown.**
@@ -68,11 +67,11 @@ A Git workflow is a standardized set of rules and practices that dictate how a t
 
 * Trunk-Based Development: All developers commit small, frequent changes directly to a single shared branch (the trunk/main) to avoid long-lasting feature branches.
 
-7. Explain git stash.
+**7. Explain git stash.**
 git stash temporarily shelves (or "stashes") changes you've made to your working directory that are not yet ready to be committed.
 This is incredibly useful when you are in the middle of working on a feature, but suddenly need to switch branches to fix an urgent bug. You can stash your messy work, switch branches, do the fix, switch back, and run git stash pop to reapply your unfinished work exactly as you left it.
 
-8. What is the use of .gitignore?
+**8. What is the use of .gitignore?**
 The .gitignore file is a plain text file placed in the root of a repository that explicitly tells Git which files or directories it should completely ignore and not track.
 This is crucial for keeping repositories clean and secure. Common things added to a .gitignore include:
 
